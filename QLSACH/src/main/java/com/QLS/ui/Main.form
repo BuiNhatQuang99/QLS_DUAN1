@@ -373,7 +373,7 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\QLS_DUAN1\QLSACH\src\main\resources\icon\anh2.jpg"/>
+              <Image iconType="3" name="/icon/anh2.jpg"/>
             </Property>
           </Properties>
         </Component>
