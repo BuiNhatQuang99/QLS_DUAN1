@@ -4,7 +4,7 @@
  */
 package com.QLS.DAO;
 
-import com.QLS.entity.KhachHang;
+
 import com.QLS.entity.LoaiSach;
 import com.QLS.utils.XJdbc;
 import java.sql.ResultSet;
