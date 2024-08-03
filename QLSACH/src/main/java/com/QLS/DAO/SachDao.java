@@ -5,7 +5,7 @@
 package com.QLS.DAO;
 
 
-import com.QLS.entity.KhachHang;
+
 import com.QLS.entity.Sach;
 import com.QLS.utils.XJdbc;
 import java.sql.ResultSet;
