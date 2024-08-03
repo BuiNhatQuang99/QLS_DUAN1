@@ -83,7 +83,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtsoluong" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="txtndk" min="-2" pref="150" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="txtemail" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
                                   </Group>
@@ -129,7 +129,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="txtdiachi" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtsoluong" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtndk" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -579,12 +579,12 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="S&#x1ed1; L&#x1b0;&#x1ee3;ng:"/>
+            <Property name="text" type="java.lang.String" value="Ng&#xe0;y &#x111;&#x103;ng k&#xfd;:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtsoluong">
+        <Component class="javax.swing.JTextField" name="txtndk">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtsoluongActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtndkActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel15">

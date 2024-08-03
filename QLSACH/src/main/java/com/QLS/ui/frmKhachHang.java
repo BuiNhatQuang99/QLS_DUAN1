@@ -50,7 +50,7 @@ public class frmKhachHang extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         txtdiachi = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
-        txtsoluong = new javax.swing.JTextField();
+        txtndk = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
         txtsdt = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
@@ -276,11 +276,11 @@ public class frmKhachHang extends javax.swing.JFrame {
         });
 
         jLabel14.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel14.setText("Số Lượng:");
+        jLabel14.setText("Ngày đăng ký:");
 
-        txtsoluong.addActionListener(new java.awt.event.ActionListener() {
+        txtndk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtsoluongActionPerformed(evt);
+                txtndkActionPerformed(evt);
             }
         });
 
@@ -348,7 +348,7 @@ public class frmKhachHang extends javax.swing.JFrame {
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel16)
-                                        .addComponent(txtsoluong, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtndk, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(txtemail, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addContainerGap())
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -382,7 +382,7 @@ public class frmKhachHang extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtdiachi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtsoluong, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtndk, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(33, 33, 33)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel15)
@@ -447,9 +447,9 @@ public class frmKhachHang extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtdiachiActionPerformed
 
-    private void txtsoluongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtsoluongActionPerformed
+    private void txtndkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtndkActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtsoluongActionPerformed
+    }//GEN-LAST:event_txtndkActionPerformed
 
     private void txtsdtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtsdtActionPerformed
         // TODO add your handling code here:
@@ -539,8 +539,8 @@ public class frmKhachHang extends javax.swing.JFrame {
     private javax.swing.JTextField txtdiachi;
     private javax.swing.JTextField txtemail;
     private javax.swing.JTextField txtmakh;
+    private javax.swing.JTextField txtndk;
     private javax.swing.JTextField txtsdt;
-    private javax.swing.JTextField txtsoluong;
     private javax.swing.JTextField txttenkh;
     // End of variables declaration//GEN-END:variables
 }
